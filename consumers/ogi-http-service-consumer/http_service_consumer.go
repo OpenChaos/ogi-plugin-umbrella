@@ -17,7 +17,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	golenv "github.com/abhishekkr/gol/golenv"
+	golenv "github.com/gol-gol/golenv"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/pseidemann/finish"
 

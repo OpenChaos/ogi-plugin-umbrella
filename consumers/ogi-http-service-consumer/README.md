@@ -28,8 +28,8 @@
 ### To Build Plug-in
 
 ```
-mkdir out
-go build -o "out/ogi-http-service-consumer.so" -buildmode=plugin . 
+mkdir ../../out
+go build -o "../../out/ogi-http-service-consumer.so" -buildmode=plugin .
 ```
 
 ---

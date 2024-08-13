@@ -2,7 +2,7 @@
 
 export CONSUMERS=(ogi-http-service-consumer ogi-file-consumer)
 export TRANSFORMERS=(ogi-yfinance-transformer)
-export PRODUCERS=(ogi-http-producer ogi-file-producer ogi-yfin52low-producer)
+export PRODUCERS=(ogi-http-producer ogi-file-producer ogi-yfin52low-producer ogi-slack-producer)
 
 
 list-all-plugin-paths(){

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export CONSUMERS=(ogi-http-service-consumer ogi-file-consumer)
+export CONSUMERS=(ogi-http-service-consumer ogi-file-consumer ogi-tcp-check-consumer)
 export TRANSFORMERS=(ogi-yfinance-transformer)
 export PRODUCERS=(ogi-http-producer ogi-file-producer ogi-yfin52low-producer ogi-slack-producer)
 

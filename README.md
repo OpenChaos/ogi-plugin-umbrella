@@ -17,6 +17,8 @@
 
 * [HTTP Service](./consumers/ogi-http-service-consumer): simply passes request body to transformer, supports basic-auth
 
+* [TCP Check](./consumers/ogi-tcp-check-consumers): checks if one/more TCP Connects are working or not, calls transformer on fail
+
 
 #### Transformer
 
